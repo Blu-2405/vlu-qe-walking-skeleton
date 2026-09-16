@@ -1,13 +1,15 @@
 const { checkLogin } = require('./login');
 
-test('Đăng nhập đúng với admin/123', () => {
-  expect(checkLogin('admin', '123')).toBe(true);
-});
+describe('Kiểm tra hàm checkLogin', () => {
+  test('Đúng khi user=admin và pass=123', () => {
+    expect(checkLogin('admin', '123')).toBe(true);
+  });
 
-test('Đăng nhập sai với user khác', () => {
-  expect(checkLogin('user', '123')).toBe(false);
-});
+  test('Sai khi user khác', () => {
+    expect(checkLogin('user', '123')).toBe(false);
+  });
 
-test('Đăng nhập sai với mật khẩu khác', () => {
-  expect(checkLogin('admin', '456')).toBe(false);
+  test('Sai khi pass khác', () => {
+    expect(checkLogin('admin', '456')).toBe(false);
+  });
 });
