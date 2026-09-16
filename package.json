@@ -1,7 +1,7 @@
 {
-  "name": "simple-login-app",
+  "name": "vlu-qe-walking-skeleton",
   "version": "1.0.0",
-  "description": "Ứng dụng demo form đăng nhập với kiểm tra đơn giản và Unit Test",
+  "description": "Walking Skeleton demo với Jest và GitHub Actions",
   "main": "login.js",
   "scripts": {
     "test": "jest"
@@ -9,7 +9,8 @@
   "keywords": [
     "login",
     "jest",
-    "unit-test"
+    "unit-test",
+    "github-actions"
   ],
   "author": "Khánh",
   "license": "MIT",
