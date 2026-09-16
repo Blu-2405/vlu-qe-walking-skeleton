@@ -1,6 +1,6 @@
 // Hàm kiểm tra đăng nhập (logic thuần)
 function checkLogin(user, pass) {
-  return user === 'admin' && pass === '12345';
+  return user === 'admin' && pass === '123';
 }
 
 // Nếu chạy trong trình duyệt thì mới gắn sự kiện DOM
