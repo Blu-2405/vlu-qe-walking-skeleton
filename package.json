@@ -1,0 +1,19 @@
+{
+  "name": "simple-login-app",
+  "version": "1.0.0",
+  "description": "Ứng dụng demo form đăng nhập với kiểm tra đơn giản và Unit Test",
+  "main": "login.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "login",
+    "jest",
+    "unit-test"
+  ],
+  "author": "Khánh",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
